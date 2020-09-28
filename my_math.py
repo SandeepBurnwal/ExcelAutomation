@@ -8,8 +8,7 @@ import xlwings as xw
 
 
 def main(path_of_file):
-#def main():
-    #path_of_file = 'D:\Projects\ML jobs\Credit_Suisse\my_math'
+
     """ Path of the project directory (of the excel workbook) is being passed from
         VBA RunPython module when the Python script is called """
 
