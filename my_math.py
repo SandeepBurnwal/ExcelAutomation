@@ -39,7 +39,7 @@ def parent_function(wb):
     if odd == 0:
         win32api.MessageBox(xw.apps.active.api.Hwnd, f'{cell_number} is even, pls enter odd no !! ', 'Info', win32con.MB_ICONINFORMATION)
         raise SystemExit(0)
-    elif cell_number > 150:
+    elif cell_number > 17:
         win32api.MessageBox(xw.apps.active.api.Hwnd, f'Pls enter a odd no less than 17 !! ', 'Info', win32con.MB_ICONINFORMATION)
         raise SystemExit(0)
 
